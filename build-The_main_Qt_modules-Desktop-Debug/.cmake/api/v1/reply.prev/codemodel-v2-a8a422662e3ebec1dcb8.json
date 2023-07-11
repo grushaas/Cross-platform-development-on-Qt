@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "The_main_Qt_modules",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "The_main_Qt_modules::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-The_main_Qt_modules-Debug-0fb60cce3bf652cb1375.json",
+					"name" : "The_main_Qt_modules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "The_main_Qt_modules_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-The_main_Qt_modules_autogen-Debug-3407ed57bd55b44dab10.json",
+					"name" : "The_main_Qt_modules_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/build-The_main_Qt_modules-Desktop-Debug",
+		"source" : "C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/The_main_Qt_modules"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
