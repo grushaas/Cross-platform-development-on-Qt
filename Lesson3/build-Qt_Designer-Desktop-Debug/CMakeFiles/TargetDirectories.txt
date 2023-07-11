@@ -1,0 +1,4 @@
+C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/Lesson3/build-Qt_Designer-Desktop-Debug/CMakeFiles/Qt_Designer.dir
+C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/Lesson3/build-Qt_Designer-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/Lesson3/build-Qt_Designer-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/Lesson3/build-Qt_Designer-Desktop-Debug/CMakeFiles/Qt_Designer_autogen.dir
