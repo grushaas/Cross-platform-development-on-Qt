@@ -1,4 +1,0 @@
-C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/build-The_main_Qt_modules-Desktop-Debug/CMakeFiles/The_main_Qt_modules.dir
-C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/build-The_main_Qt_modules-Desktop-Debug/CMakeFiles/edit_cache.dir
-C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/build-The_main_Qt_modules-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-C:/MyFolder/Netology/Homework/Cross-platform-development-on-Qt/build-The_main_Qt_modules-Desktop-Debug/CMakeFiles/The_main_Qt_modules_autogen.dir
