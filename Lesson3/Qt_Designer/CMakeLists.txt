@@ -17,9 +17,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        dialog.h
-        dialog.cpp
-        dialog.ui
+
+
+
 )
 
 qt_add_executable(Qt_Designer
