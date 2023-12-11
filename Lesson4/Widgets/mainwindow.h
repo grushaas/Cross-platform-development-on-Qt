@@ -20,10 +20,6 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_pushButton_toggled(bool checked);
-
-    void on_progressBar_valueChanged(int value);
-
 private:
     Ui::MainWindow *ui;
     int click = 1;
