@@ -1,8 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "dialog.h"
-
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -19,6 +17,5 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    Dialog *d;
 };
 #endif // MAINWINDOW_H
