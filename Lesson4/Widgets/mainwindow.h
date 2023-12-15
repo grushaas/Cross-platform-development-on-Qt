@@ -18,11 +18,10 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_pushButton_toggled(bool checked);
 
 private:
     Ui::MainWindow *ui;
-    int click = 1;
     int valuePB = 0;
 };
 #endif // MAINWINDOW_H

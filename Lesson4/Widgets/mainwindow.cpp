@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    ui->pushButton->setChecked(false);
+    ui->pushButton->setCheckable(true);
 
     ui->cB_1->addItem("Item 1");
     ui->cB_1->addItem("Item 2");
@@ -25,19 +25,18 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::on_pushButton_toggled(bool checked)
 {
-    ui->pushButton->setChecked(true);
-    ui->progressBar->setValue(click);
-    ++click;
-    ui->pushButton->setChecked(false);
-
+    if(checked)
+    {
+        valuePB += 1;
+        ui->progressBar->setValue(valuePB);
+    }
 
     if(ui->progressBar->value() == ui->progressBar->maximum())
     {
         ui->progressBar->setValue(0);
+        valuePB = 0;
     }
 }
-
-
 
