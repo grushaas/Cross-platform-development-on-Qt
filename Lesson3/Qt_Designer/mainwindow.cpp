@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "connectdb.h"
 #include "./ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -11,5 +12,12 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::on_pB_connectToDB_clicked()
+{
+    ConnectDB conn;
+    conn.setModal(true);
+    conn.exec();
 }
 
